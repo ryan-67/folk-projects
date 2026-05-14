@@ -1,0 +1,127 @@
+[
+  {
+    "id": "ex_marketing_q3",
+    "name": "Marketing Campaign Q3",
+    "color": "#6366f1",
+    "__seed": {
+      "notes": "## Overview\nQ3 marketing campaign planning and execution.\n\n## Goals\n- Increase brand awareness by 20%\n- Launch social ads by July 15\n- Partner with 3 micro-influencers\n\n## Resources\nBrand guidelines, media kit, and approved copy are in the shared drive.",
+      "todos": [
+        "Finalize campaign brief",
+        "Design social ad creatives",
+        "Schedule influencer outreach",
+        "Set up tracking pixels",
+        "Review performance weekly"
+      ],
+      "links": [
+        "https://docs.google.com/document/u/0/",
+        "https://www.figma.com/",
+        "https://analytics.google.com/"
+      ],
+      "activities": [
+        {"type": "note", "text": "Created project structure", "agoMinutes": 120},
+        {"type": "todo", "text": "Added initial todo list", "agoMinutes": 115},
+        {"type": "link", "text": "Linked Google Drive folder", "agoMinutes": 90}
+      ]
+    }
+  },
+  {
+    "id": "ex_product_alpha",
+    "name": "Product Launch Alpha",
+    "color": "#ec4899",
+    "__seed": {
+      "notes": "## Alpha Launch\nInternal alpha release for core feature set.\n\n## Scope\n- Auth & onboarding flow\n- Dashboard v1\n- Billing integration\n\n## Risks\nAPI rate limits and third-party downtime.",
+      "todos": [
+        "Set up staging environment",
+        "Write alpha test script",
+        "Onboard first 5 beta users",
+        "Collect feedback in Notion",
+        "Prepare rollback plan"
+      ],
+      "links": [
+        "https://github.com/",
+        "https://vercel.com/dashboard",
+        "https://www.notion.so/"
+      ],
+      "activities": [
+        {"type": "note", "text": "Drafted launch checklist", "agoMinutes": 240},
+        {"type": "todo", "text": "Created staging instance", "agoMinutes": 200},
+        {"type": "link", "text": "Linked GitHub repo", "agoMinutes": 180}
+      ]
+    }
+  },
+  {
+    "id": "ex_research_paper",
+    "name": "Research Paper Draft",
+    "color": "#14b8a6",
+    "__seed": {
+      "notes": "## Paper Title: TBD\nWorking draft for upcoming conference submission.\n\n## Sections\n1. Abstract\n2. Introduction\n3. Methodology\n4. Results\n5. Conclusion\n\n## Deadlines\n- Outline: June 1\n- First draft: July 1\n- Review: August 1",
+      "todos": [
+        "Finalize bibliography",
+        "Write methodology section",
+        "Generate charts and tables",
+        "Send to advisor for review",
+        "Prepare presentation slides"
+      ],
+      "links": [
+        "https://scholar.google.com/",
+        "https://overleaf.com/",
+        "https://zotero.org/"
+      ],
+      "activities": [
+        {"type": "note", "text": "Started literature review", "agoMinutes": 300},
+        {"type": "link", "text": "Saved Zotero collection", "agoMinutes": 280},
+        {"type": "todo", "text": "Outlined methodology", "agoMinutes": 260}
+      ]
+    }
+  },
+  {
+    "id": "ex_offsite_2026",
+    "name": "Team Offsite 2026",
+    "color": "#f59e0b",
+    "__seed": {
+      "notes": "## Offsite Planning\nAnnual team retreat in Tahoe.\n\n## Logistics\n- Dates: Sept 12-14\n- Venue: Alpine Lodge\n- Transport: charter bus\n\n## Agenda\nDay 1: Strategy sessions\nDay 2: Team building + hiking\nDay 3: OKRs + planning",
+      "todos": [
+        "Book venue and catering",
+        "Send save-the-date calendar invites",
+        "Plan team-building activity",
+        "Book charter bus transport",
+        "Prepare strategy slides"
+      ],
+      "links": [
+        "https://www.airbnb.com/",
+        "https://docs.google.com/spreadsheets/u/0/",
+        "https://calendar.google.com/"
+      ],
+      "activities": [
+        {"type": "note", "text": "Created offsite plan", "agoMinutes": 480},
+        {"type": "todo", "text": "Shortlisted venues", "agoMinutes": 460},
+        {"type": "link", "text": "Shared budget sheet", "agoMinutes": 420}
+      ]
+    }
+  },
+  {
+    "id": "ex_budget_fy26",
+    "name": "Budget Review FY26",
+    "color": "#8b5cf6",
+    "__seed": {
+      "notes": "## FY26 Budget\nDepartment-level budget review and forecasting.\n\n## Categories\n- Headcount & recruiting\n- Cloud infrastructure\n- Software & tools\n- Marketing spend\n- Travel & events\n\n## Process\n1. Baseline FY25 actuals\n2. Model headcount growth\n3. Estimate vendor renewals\n4. Present to finance by June 30",
+      "todos": [
+        "Pull FY25 actual spend report",
+        "Model 15% headcount growth",
+        "Audit software licenses",
+        "Prepare variance analysis",
+        "Schedule finance review meeting"
+      ],
+      "links": [
+        "https://docs.google.com/spreadsheets/u/0/",
+        "https://quickbooks.intuit.com/",
+        "https://drive.google.com/"
+      ],
+      "activities": [
+        {"type": "note", "text": "Started budget baseline", "agoMinutes": 600},
+        {"type": "todo", "text": "Requested actuals from finance", "agoMinutes": 580},
+        {"type": "link", "text": "Linked FY25 workbook", "agoMinutes": 560}
+      ]
+    }
+  }
+]
