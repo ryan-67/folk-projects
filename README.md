@@ -4,7 +4,7 @@ Live at [ryan-67.github.io/folk-projects](https://ryan-67.github.io/folk-project
 
 ## Why this exists
 
-Folk is a personal AI agent that lives in your iMessage, Telegram, and other chat surfaces. It already handles errands, scheduling, search, and persistent memory, but one piece is missing: a dedicated surface for long-running work.
+Folk (https://www.getfolk.app/) developed by Nozomio Labs (https://www.nozomio.com/) is a personal AI agent that lives in your iMessage, Telegram, and other chat surfaces. It already handles errands, scheduling, search, and persistent memory, but one piece is missing: a dedicated surface for long-running work.
 
 When you are working on a marketing campaign, a product launch, or a research paper, your related tasks, notes, links, and chat history are scattered across different Folk tabs and contexts. There is no single place to see the state of everything you are actively pushing forward.
 
