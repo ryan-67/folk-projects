@@ -4,11 +4,13 @@ Live at [ryan-67.github.io/folk-projects](https://ryan-67.github.io/folk-project
 
 ## Why this exists
 
-Folk ([getfolk.app](https://www.getfolk.app/)) by Nozomio Labs ([nozomio.com](https://www.nozomio.com/)) is a personal AI agent that lives in iMessage, Telegram, and other chat surfaces. It already handles errands, scheduling, search, and persistent memory. A glance at the Folk dashboard reveals multiple active conversations running in parallel, which shows the agent can carry more than one thread at a time.
+Folk ([getfolk.app](https://www.getfolk.app/)) by Nozomio Labs ([nozomio.com](https://www.nozomio.com/)) is a personal AI agent that lives in iMessage, Telegram, and other chat surfaces. It already handles errands, scheduling, search, and persistent memory. A glance at the Folk dashboard reveals multiple active conversations running in parallel, and the dashboard even surfaces an Automations view under the "on a schedule" tab where every scheduled task is listed and editable.
 
-But the chat surfaces themselves, iMessage and Telegram, are not built for long-running work. When you are simultaneously managing a product launch, a creative campaign, and a multi-week research sprint, the relevant tasks, notes, links, and chat history are scattered across transient message threads. There is no persistent, glanceable workspace dedicated to each initiative. The agent remembers fragments, yet you still have to scroll back through chat history to resume context. That friction multiplies with every additional project.
+That automation view is useful for visibility, but editing still collapses back into the same bottleneck. Clicking into any automation and hitting edit pre-fills a message in iMessage (or Telegram) that says "folk, edit this automation." The management surface exists, yet the actual interaction, reasoning, and context all happen inside one or two chat threads.
 
-This prototype proposes a **Projects** tab for the Folk dashboard: a persistent, glanceable workspace where every long-term goal gets its own home. Each project collects its todos, notes, links, errands, and even a chat history timeline into one calm, dark surface that feels native to the rest of Folk. Chat threads stay lightweight and conversational; Projects carry the heavy, trackable state.
+When you are simultaneously managing a product launch, a creative campaign, a Pokemon Showdown bot, and a job search, every context switch forces you to reload state into the same conversation. Notes, links, and task history from one initiative interleave with messages from another. The agent retains fragments in memory, but the chat surface offers no persistent, glanceable workspace per initiative. Everything competes for attention in the same stream.
+
+This prototype proposes a **Projects** tab for the Folk dashboard: a persistent, glanceable workspace where every long-term goal gets its own home. Each project collects its todos, notes, links, errands, and even a chat history timeline into one calm, dark surface native to Folk. Automations stay great for recurring, atomic tasks. Projects handle the complex, multi-step initiatives that need dedicated context and state.
 
 ## Scope
 
@@ -78,11 +80,13 @@ Opacity scale follows the same convention as Folk: `ink-1` at 95% opacity down t
 
 ## A note to the Folk / Nozomio team
 
-Folk already has the primitives: errands, chat, notes, a gorgeous dark UI, and a calm density that feels productive without being noisy. It also clearly supports multi-conversation context. What it lacks is a persistent surface that turns those parallel threads into coherent, trackable work.
+Folk already has the primitives: errands, chat, notes, a gorgeous dark UI, automations, and multi-conversation context. Those pieces are real and useful. What they lack is a persistent surface that separates concurrent initiatives from one another so they stop competing for the same chat bandwidth.
 
-This prototype shows how Folk's primitives can be composed into a dedicated Projects workspace. Each project becomes a durable home where context survives beyond the transient chat thread. Errands become milestones. Chat history becomes project context. Notes become living documents. Links stop getting lost. Everything converges in one glanceable surface rather than floating across scattered tabs and long-forgotten conversations.
+The Automations page proves users want visibility into what Folk is doing. But clicking edit and being dropped back into iMessage proves the interaction model has not evolved past one or two chat threads. Every project still gets flattened into the same stream. Context switches are expensive because the user (and the agent) must reload state every time the topic changes.
 
-The pitch is simple: Folk users already trust the agent with daily coordination. Giving them a persistent project view means the agent can operate with richer, longer-lived context. The existing chat threads stay exactly what they are great at — quick, lightweight, conversational — while Projects handle the long-running, complex work that needs a dedicated home.
+This prototype shows how Folk's primitives can be composed into a dedicated Projects workspace. Each project becomes a durable home where context survives beyond the transient chat thread. Errands become milestones. Chat history becomes project context. Notes become living documents. Links stop getting lost. Automations keep doing what they do best: recurring, atomic tasks. Projects handle the long-running, complex, context-heavy initiatives.
+
+The pitch is simple: Folk users already trust the agent with daily coordination. Giving them persistent project homes means the agent can operate with richer, longer-lived context without forcing every interaction through the same iMessage thread. Chat stays lightweight and conversational. Projects carry the heavy, trackable state.
 
 ## Prototype disclaimer
 
