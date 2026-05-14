@@ -43,8 +43,6 @@ folk-projects/
 ├── public/
 ├── dist/                    # Static build output (deployed)
 ├── vite.config.ts           # Vite + React, base: '/folk-projects/'
-└── .github/workflows/
-    └── deploy.yml           # GitHub Actions -> GitHub Pages
 ```
 
 ### Tech choices
@@ -76,7 +74,6 @@ Opacity scale follows the same convention as Folk: `ink-1` at 95% opacity down t
 4. **Slash menu** - Added a `/` command palette inside the notes textarea with arrow-key navigation, enter/tab execution, and escape dismissal
 5. **Search** - Wired the command+K modal to search across project titles, notes body, and todo text
 6. **Count badge** - Added a project count badge next to the heading so the sidebar does not feel static
-7. **CI/CD** - Configured a GitHub Actions workflow that builds and deploys to GitHub Pages on every push
 
 ## A note to the Folk / Nozomio team
 
@@ -119,4 +116,4 @@ npm run build
 
 ## Deployment
 
-Pushes to `main` automatically trigger the GitHub Actions deploy workflow. The site is served from `https://ryan-67.github.io/folk-projects/`.
+The site is served from `https://ryan-67.github.io/folk-projects/`.
